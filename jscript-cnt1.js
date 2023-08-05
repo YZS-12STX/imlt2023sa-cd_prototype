@@ -6,8 +6,6 @@ const miriSeconds = document.getElementById("mirisec");
 countdown();
 setInterval(countdown, 1000);
 
-
-
 function countdown() {
   const now = new Date();
   const end = new Date("2023/09/17 00:00:00");
